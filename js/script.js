@@ -12,3 +12,12 @@ $(document).ready(function() {
     });
 
 });
+
+function question1(userInput){
+    if(userInput === "December") {
+       return 100
+        } else{ 
+            return 50
+        }
+}
+
